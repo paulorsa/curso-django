@@ -1,1 +1,2 @@
 DEBUG=False
+SECRET_KEY=defina sua chave secreta. ex: '5r0h0e7q!yp*asmyjv$*-+47gb!4m505@q=dfz)zltc(44lwl('
