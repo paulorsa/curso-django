@@ -2,3 +2,8 @@ DEBUG=False
 SECRET_KEY=defina sua chave secreta. ex: '5r0h0e7q!yp*asmyjv$*-+47gb!4m505@q=dfz)zltc(44lwl('
 ALLOWED_HOSTS=localhost, 127.0.0.1
 DATABASE_URL=postgres://postgres:postgres@localhost/testdb
+
+# Configurações do AWS
+AWS_ACCESS_KEY_ID=
+AWS_SECRET_ACCESS_KEY=
+AWS_STORAGE_BUCKET_NAME=
