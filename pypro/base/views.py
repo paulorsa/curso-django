@@ -7,5 +7,4 @@ from django.http import HttpResponse
 
 
 def home(request):
-    return HttpResponse('<html><body>Olá DJango</body></html>')
-#   return HttpResponse('<html><body>Olá DJango</body></html>', content_type='text/html')
+    return HttpResponse('<html><body>Olá DJango</body></html>', content_type='text/html; charset=utf-8')
