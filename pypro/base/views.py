@@ -4,7 +4,8 @@ from django.http import HttpResponse
 # from django.shortcuts import render
 
 # Create your views here.
+from django.shortcuts import render
 
 
 def home(request):
-    return HttpResponse('<html><body>Olá DJango</body></html>', content_type='text/html; charset=utf-8')
+    return render(request, 'base/home.html')
